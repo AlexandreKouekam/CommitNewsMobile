@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#444"
+    android:weightSum="1"
+    android:orientation="vertical"
+    >
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="174dp">
+
+
+        <include layout="@layout/header" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comm&apos;it"
+            android:id="@+id/textView"
+            android:textSize="70dp"
+            android:layout_gravity="center_horizontal|top"
+            android:textIsSelectable="true"
+            android:clickable="true"
+            android:onClick="accueil" />
+
+    </FrameLayout>
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="647dp"
+        android:id="@+id/webView"
+        android:layout_weight="0.23" />
+
+
+</LinearLayout>

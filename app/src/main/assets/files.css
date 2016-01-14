@@ -1,0 +1,18 @@
+body {
+    background-color: grey;
+}
+
+#titre {
+    background-color: white;
+    color: black;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+#article {
+    color: white;
+    text-align: justify;
+}

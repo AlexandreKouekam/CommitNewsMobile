@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="wrap_content"
+    android:layout_height="58dp"
+    android:layout_gravity="center|bottom"
+    tools:showIn="@layout/activity_accueil">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accueil"
+        android:id="@+id/button4"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:onClick="accueil" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Articles"
+        android:id="@+id/button3"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:onClick="article" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="A la une"
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal" />
+</LinearLayout>
