@@ -13,10 +13,28 @@
         actibus factitasse Maximini truculenti illius imperatoris rettulimus coniugem.</string>
 
 
-    <string-array name="liste">
+    <string-array name="listeb1">
         <item>Mon Article 1</item>
         <item>Mon Article 2</item>
         <item>Mon Article 3</item>
     </string-array>
+
+    <string-array name="listeb2">
+        <item>Mon Article 4</item>
+        <item>Mon Article 5</item>
+        <item>Mon Article 6</item>
+    </string-array>
+
+    <string-array name="listeb3">
+        <item>Mon Article 7</item>
+        <item>Mon Article 8</item>
+        <item>Mon Article 9</item>
+    </string-array>
+
+    <array name="grille">
+        <item>@drawable/lindsey</item>
+        <item>@drawable/soleil</item>
+        <item>@drawable/dieudo</item>
+    </array>
 
 </resources>

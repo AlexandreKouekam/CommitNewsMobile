@@ -1,7 +1,7 @@
 package com.example.alexandrekouekam.montest;
 
+import android.app.Activity;
 import android.content.Intent;
-import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -9,7 +9,7 @@ import android.view.View;
 import android.webkit.WebView;
 
 
-public class ArticlesActivity extends ActionBarActivity {
+public class ArticlesActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -46,7 +46,7 @@ public class ArticlesActivity extends ActionBarActivity {
     }
 
     public void onClickButton(View view){
-        Intent intent = new Intent(this, SelectionActivity.class);
+        Intent intent = new Intent(this, AccueilActivity.class);
         startActivity(intent);
     }
 
@@ -54,6 +54,7 @@ public class ArticlesActivity extends ActionBarActivity {
         Intent intent = new Intent(this, SelectionActivity.class);
         startActivity(intent);
     }
+
 
     public void accueil(View view){
         Intent intent = new Intent(this, AccueilActivity.class);

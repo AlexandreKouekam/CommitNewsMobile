@@ -23,16 +23,7 @@
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Comm&apos;it"
-            android:id="@+id/textView"
-            android:textSize="70dp"
-            android:layout_gravity="center_horizontal|top"
-            android:textIsSelectable="true"
-            android:clickable="true"
-            android:onClick="accueil" />
+        <include layout="@layout/title" />
 
     </FrameLayout>
 

@@ -1,15 +1,16 @@
 package com.example.alexandrekouekam.montest;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebView;
 
 
-public class AccueilActivity extends ActionBarActivity {
+public class AccueilActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,9 +51,25 @@ public class AccueilActivity extends ActionBarActivity {
         startActivity(intent);
     }
 
-    public void article(View view){
+    public void articleAV(View view){
         Intent intent = new Intent(this, SelectionActivity.class);
+        intent.putExtra(SelectionActivity.LISTE,1);
         startActivity(intent);
+        finish();
+    }
+
+    public void articleC(View view){
+        Intent intent = new Intent(this, SelectionActivity.class);
+        intent.putExtra(SelectionActivity.LISTE,2);
+        startActivity(intent);
+        finish();
+    }
+
+    public void articleW(View view){
+        Intent intent = new Intent(this, SelectionActivity.class);
+        intent.putExtra(SelectionActivity.LISTE,3);
+        startActivity(intent);
+        finish();
     }
 
     public void accueil(View view){

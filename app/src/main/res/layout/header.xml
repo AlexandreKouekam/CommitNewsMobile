@@ -9,7 +9,7 @@
 
     <Button
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:text="Accueil"
         android:id="@+id/button4"
         android:layout_gravity="center"
@@ -17,19 +17,30 @@
         android:onClick="accueil" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="90dp"
         android:layout_height="wrap_content"
-        android:text="Articles"
-        android:id="@+id/button3"
+        android:text="Articles A/V"
+        android:id="@+id/b1"
         android:layout_gravity="center"
         android:gravity="center_horizontal"
-        android:onClick="article" />
+        android:onClick="articleAV" />
 
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="91dp"
         android:layout_height="wrap_content"
-        android:text="A la une"
-        android:id="@+id/button"
+        android:text="Articles Com"
+        android:id="@+id/b2"
         android:layout_gravity="center"
-        android:gravity="center_horizontal" />
+        android:gravity="center_horizontal"
+        android:onClick="articleC" />
+
+    <Button
+        android:layout_width="91dp"
+        android:layout_height="wrap_content"
+        android:text="Articles Web"
+        android:id="@+id/b3"
+        android:layout_gravity="center"
+        android:gravity="center_horizontal"
+        android:onClick="articleW" />
+
 </LinearLayout>

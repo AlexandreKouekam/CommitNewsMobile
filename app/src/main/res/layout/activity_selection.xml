@@ -23,17 +23,7 @@
 
         </LinearLayout>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Comm&apos;it"
-            android:id="@+id/textView"
-            android:textSize="100dp"
-            android:layout_gravity="center_horizontal|top"
-            android:textIsSelectable="true"
-            android:clickable="true"
-            android:onClick="accueil"
-            android:nestedScrollingEnabled="false" />
+        <include layout="@layout/title" />
 
     </FrameLayout>
 
@@ -57,7 +47,7 @@
                 <ListView
                     android:layout_width="wrap_content"
                     android:layout_height="265dp"
-                    android:entries="@array/liste"
+                    android:entries="@array/listeb1"
                     android:id="@+id/liste" />
             </LinearLayout>
         </ScrollView>
